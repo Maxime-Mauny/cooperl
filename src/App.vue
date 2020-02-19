@@ -1,22 +1,24 @@
 <template>
   <div id="app">
     <!-- ... -->
-    <annuaire></annuaire>
-    <form></form>
+    <router-view></router-view>
   </div>
 </template>
+
 <script>
 import Annuaire from './components/Annuaire'
-import Form from './components/Form'
+import Adduser from './components/Adduser'
 
 export default {
   name: 'app',
   components: {
     Annuaire,
-    Form
+    Adduser
   }
 }
 </script>
+
+
 <style>
 html {
     height:100%;

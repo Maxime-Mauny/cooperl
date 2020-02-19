@@ -32,7 +32,7 @@
                 <img src="https://source.unsplash.com/120x100/?portrait" alt="" class="article__img">
                 <p>{{infos}}</p>
         </section>
-        <button class="add"><a v-bind:href="link1">Ajouter</a></button><br>
+        <button class="add"><router-link to="/adduser" class="nav-link">Ajouter</router-link></button><br>
         <button class="extract"><a v-bind:href="link3">Extraire</a></button>
     <footer class="count">
     <section class="users">
@@ -52,7 +52,7 @@ export default {
             return {
                 index: 'ANNUAIRE COOPERL',
                 newUser: 'NOUVEL UTILISATEUR',
-                link1: 'http://localhost:8080/form',
+                link1: 'http://localhost:8080/adduser',
                 link2: 'http://localhost:8080/',
                 link3: 'https://www.google.com/ ',
                 firstname: '',

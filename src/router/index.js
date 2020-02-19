@@ -1,19 +1,19 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Router from 'vue-router'
 import Annuaire from '@/components/Annuaire'
-import Form from '@/components/Form'
+import Adduser from '@/components/Adduser'
 
-Vue.use(VueRouter)
+Vue.use(Router)
 
-export default new VueRouter({
+export default new Router({
   mode: 'history',
   routes: [
     {
       path: '/',
       component: Annuaire,
     }, {
-      path: '/Form',
-      component: Form,
+      path: '/Adduser',
+      component: Adduser,
     }
   ]
 })
