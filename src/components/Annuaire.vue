@@ -6,9 +6,9 @@
                 <td class="title"><p><i class="fas fa-address-book"></i>contacts </p>
                 </td>             
             </tr>
-        <!--    <tr>
+        <!--<tr>
                 <td>{{firstname}} {{lastname}}</td>
-            </tr> -->
+            </tr>-->
             <tr>
                 <td>
                     <button class="annuaire" @click="open"> <p><i class="fas fa-address-card"></i>Maxime Mauny</p></button>
@@ -72,9 +72,14 @@ export default {
                 this.demandInfos = true
             },                 
         },
+        
 
     /* Fonction simulant un appel ajax pour le "button" extract */
-    
+        /*methods: {
+             numberUers (name){
+                alert($('.'+name).size())
+        }
+            }*/
                
 }
 </script>
