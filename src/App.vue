@@ -13,11 +13,10 @@ export default {
   name: 'app',
   components: {
     Annuaire,
-    Adduser
+    Adduser,
   }
 }
 </script>
-
 
 <style>
 html {
@@ -120,8 +119,9 @@ table{
     bottom: 40px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    text-align: center;
 }
-.users {
+label {
     text-align: center;
     padding: 4px;
     font-weight: bold;
@@ -150,14 +150,20 @@ table{
     padding: 35px;
     width: 500px;
     margin: auto;
+    margin-top: 70px;
     -webkit-box-shadow: 7px 7px 11px 0px rgb(73, 73, 73);
     -moz-box-shadow: 7px 7px 11px 0px rgb(66, 63, 66);
     box-shadow: 7px 7px 11px 0px rgb(68, 65, 68);
 }
 /* Formulaire à remplir par l'utilisateur */
+label {
+    color: rgb(121, 109, 109);
+}
 input {
-     padding: 3px;
-     border: 1.5px solid rgb(90, 86, 86);    
+    position: absolute;
+    right: 230px;
+    padding: 3px;
+    border: 1.5px solid rgb(90, 86, 86);    
 }
 /* Adresse mail */
 .mail {
@@ -170,7 +176,9 @@ input {
     background-color: rgb(170, 223, 117);
     padding: 5px;
     border-radius: 10px;
-    margin: 3% 45% 0 45%;
+    margin: 3% 47% 0 43%;
+    font-size: 1.1em;
+    font-weight: bold;
     -webkit-box-shadow: 7px 7px 11px 0px rgb(73, 73, 73);
     -moz-box-shadow: 7px 7px 11px 0px rgb(66, 63, 66);
     box-shadow: 7px 7px 11px 0px rgb(68, 65, 68);
