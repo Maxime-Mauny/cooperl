@@ -59,6 +59,7 @@ export default {
                 phoneNumber: '',
                 infos: 'Maxime Mauny, maxime.mauny@cooperl.fr, 0672310070',
                 demandInfos: '',
+                counter: 4,
             }    
         },
     

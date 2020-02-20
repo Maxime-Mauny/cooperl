@@ -50,17 +50,17 @@ export default {
         },
 
         /* Methods pour récuperer les valeurs des "input" suite au click du bouton "validate" */
-        methods: {
+        /*methods: {
             addContact() {
                 this.contacts.push({"firstname":"this.firstname", "lastname":"this.lastname"})
             }
-        },
+        },*/
         /* Compteur des utilisateurs dans l'annuaire */
-        computed: {
+        /*computed: {
             counter() {
                 return this.contacts.length
             }
-        },
+        },*/
 
 
             /* fonction pour effacer les espaces des "input" et ajouter "-" à la place ----  à ajouter dans le <button> ---> onclick="espace()" */
